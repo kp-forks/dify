@@ -45,7 +45,7 @@ const translation = {
       input: 'Назва Знань',
       placeholder: 'Введіть, будь ласка',
       nameNotEmpty: 'Ім’я не може бути порожнім',
-      nameLengthInvaild: 'Ім’я має бути від 1 до 40 символів',
+      nameLengthInvalid: 'Ім’я має бути від 1 до 40 символів',
       cancelButton: 'Скасувати',
       confirmButton: 'Створити',
       failed: 'Створення не вдалося',
@@ -73,6 +73,14 @@ const translation = {
       fireCrawlNotConfiguredDescription: 'Налаштуйте Firecrawl за допомогою ключа API, щоб використовувати його.',
       extractOnlyMainContent: 'Витягуйте лише основний контент (без заголовків, навігаторів, нижніх колонтитулів тощо)',
       maxDepthTooltip: 'Максимальна глибина для сканування щодо введеної URL-адреси. Глибина 0 просто зішкрібає сторінку введеного url, глибина 1 шкребе url і все після введеногоURL + один /, і так далі.',
+      jinaReaderDocLink: 'https://jina.ai/reader',
+      chooseProvider: 'Оберіть провайдера',
+      jinaReaderNotConfiguredDescription: 'Налаштуйте Jina Reader, ввівши безкоштовний API-ключ для доступу.',
+      jinaReaderDoc: 'Дізнайтеся більше про Jina Reader',
+      useSitemapTooltip: 'Дотримуйтесь карти сайту, щоб просканувати сайт. Якщо ні, Jina Reader скануватиметься ітеративно залежно від релевантності сторінки, отримуючи менше, але якісніших сторінок.',
+      jinaReaderNotConfigured: 'Jina Reader не налаштована',
+      jinaReaderTitle: 'Перетворіть весь сайт на Markdown',
+      useSitemap: 'Використовуйте карту сайту',
     },
   },
   stepTwo: {
@@ -133,6 +141,7 @@ const translation = {
     datasetSettingLink: 'Налаштування знань.',
     webpageUnit: 'Сторінок',
     websiteSource: 'Веб-сайт попередньої обробки',
+    separatorTip: 'Роздільник – це символ, який використовується для поділу тексту. \\n\\n та \\n є часто використовуваними роздільниками для відокремлення абзаців та рядків. У поєднанні з комами (\\n\\n,\\n) абзаци будуть розділені лініями, якщо вони перевищують максимальну довжину фрагмента. Ви також можете використовувати спеціальні роздільники, визначені вами (наприклад, ***).',
   },
   stepThree: {
     creationTitle: '🎉 Знання створено',
@@ -155,6 +164,11 @@ const translation = {
     getApiKeyLinkText: 'Отримайте свій API-ключ від firecrawl.dev',
     configFirecrawl: 'Налаштування 🔥Firecrawl',
     apiKeyPlaceholder: 'Ключ API від firecrawl.dev',
+  },
+  jinaReader: {
+    apiKeyPlaceholder: 'Ключ API від jina.ai',
+    configJinaReader: 'Налаштування Jina Reader',
+    getApiKeyLinkText: 'Отримайте безкоштовний API-ключ за адресою jina.ai',
   },
 }
 

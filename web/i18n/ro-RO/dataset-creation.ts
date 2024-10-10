@@ -45,7 +45,7 @@ const translation = {
       input: 'Numele Cunoștinței',
       placeholder: 'Vă rugăm să introduceți',
       nameNotEmpty: 'Numele nu poate fi gol',
-      nameLengthInvaild: 'Numele trebuie să fie între 1 și 40 de caractere',
+      nameLengthInvalid: 'Numele trebuie să fie între 1 și 40 de caractere',
       cancelButton: 'Anulează',
       confirmButton: 'Creează',
       failed: 'Crearea a eșuat',
@@ -73,6 +73,14 @@ const translation = {
       includeOnlyPaths: 'Includeți numai căi',
       totalPageScraped: 'Total pagini răzuite:',
       maxDepthTooltip: 'Adâncimea maximă de accesat cu crawlere în raport cu adresa URL introdusă. Adâncimea 0 doar răzuiește pagina URL-ului introdus, adâncimea 1 răzuiește url-ul și tot ceea ce după ce a introdusURL + un / și așa mai departe.',
+      jinaReaderDocLink: 'https://jina.ai/reader',
+      chooseProvider: 'Selectați un furnizor',
+      jinaReaderNotConfiguredDescription: 'Configurați Jina Reader introducând cheia API gratuită pentru acces.',
+      useSitemap: 'Utilizarea hărții site-ului',
+      jinaReaderDoc: 'Aflați mai multe despre Jina Reader',
+      jinaReaderTitle: 'Convertiți întregul site în Markdown',
+      jinaReaderNotConfigured: 'Jina Reader nu este configurat',
+      useSitemapTooltip: 'Urmați harta site-ului pentru a accesa cu crawlere site-ul. Dacă nu, Jina Reader va accesa cu crawlere iterativ în funcție de relevanța paginii, producând mai puține pagini, dar de calitate superioară.',
     },
   },
   stepTwo: {
@@ -133,6 +141,7 @@ const translation = {
     datasetSettingLink: 'setările Cunoștinței.',
     webpageUnit: 'Pagini',
     websiteSource: 'Site-ul web de preprocesare',
+    separatorTip: 'Un delimitator este caracterul folosit pentru a separa textul. \\n\\n și \\n sunt delimitatori utilizați în mod obișnuit pentru separarea paragrafelor și liniilor. Combinate cu virgule (\\n\\n,\\n), paragrafele vor fi segmentate pe linii atunci când depășesc lungimea maximă a bucății. De asemenea, puteți utiliza delimitatori speciali definiți de dumneavoastră (de exemplu, ***).',
   },
   stepThree: {
     creationTitle: '🎉 Cunoștință creată',
@@ -155,6 +164,11 @@ const translation = {
     configFirecrawl: 'Configurați 🔥Firecrawl',
     getApiKeyLinkText: 'Obțineți cheia API de la firecrawl.dev',
     apiKeyPlaceholder: 'Cheie API de la firecrawl.dev',
+  },
+  jinaReader: {
+    configJinaReader: 'Configurați Jina Reader',
+    apiKeyPlaceholder: 'Cheie API de la jina.ai',
+    getApiKeyLinkText: 'Obțineți cheia API gratuită la jina.ai',
   },
 }
 

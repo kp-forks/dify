@@ -37,6 +37,7 @@ const translation = {
     params: 'Parámetros',
     duplicate: 'Duplicar',
     rename: 'Renombrar',
+    audioSourceUnavailable: 'AudioSource no está disponible',
   },
   errorMsg: {
     fieldRequired: '{{field}} es requerido',
@@ -201,7 +202,7 @@ const translation = {
     invitationLink: 'Enlace de invitación',
     failedInvitationEmails: 'Los siguientes usuarios no fueron invitados exitosamente',
     ok: 'OK',
-    removeFromTeam: 'Eliminar del equipo',
+    removeFromTeam: 'Eliminar del espacio de trabajo',
     removeFromTeamTip: 'Se eliminará el acceso al equipo',
     setAdmin: 'Establecer como administrador',
     setMember: 'Establecer como miembro ordinario',

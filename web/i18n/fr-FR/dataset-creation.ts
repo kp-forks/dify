@@ -45,7 +45,7 @@ const translation = {
       input: 'Nom de la connaissance',
       placeholder: 'Veuillez entrer',
       nameNotEmpty: 'Le nom ne peut pas être vide',
-      nameLengthInvaild: 'Le nom doit comporter entre 1 et 40 caractères.',
+      nameLengthInvalid: 'Le nom doit comporter entre 1 et 40 caractères.',
       cancelButton: 'Annuler',
       confirmButton: 'Créer',
       failed: 'Création échouée',
@@ -73,6 +73,14 @@ const translation = {
       extractOnlyMainContent: 'Extraire uniquement le contenu principal (pas d’en-têtes, de navigations, de pieds de page, etc.)',
       excludePaths: 'Exclure les chemins d’accès',
       maxDepthTooltip: 'Profondeur maximale à explorer par rapport à l’URL saisie. La profondeur 0 gratte simplement la page de l’URL saisie, la profondeur 1 récupère l’URL et tout ce qui suit l’URL saisie + un /, et ainsi de suite.',
+      jinaReaderDocLink: 'https://jina.ai/reader',
+      jinaReaderDoc: 'En savoir plus sur Jina Reader',
+      useSitemapTooltip: 'Suivez le plan du site pour explorer le site. Si ce n’est pas le cas, Jina Reader explorera de manière itérative en fonction de la pertinence de la page, produisant des pages moins nombreuses mais de meilleure qualité.',
+      jinaReaderNotConfiguredDescription: 'Configurez Jina Reader en saisissant votre clé API gratuite pour y accéder.',
+      useSitemap: 'Utiliser le sitemap',
+      jinaReaderNotConfigured: 'Jina Reader n’est pas configuré',
+      chooseProvider: 'Sélectionnez un fournisseur',
+      jinaReaderTitle: 'Convertir l’intégralité du site en Markdown',
     },
   },
   stepTwo: {
@@ -133,6 +141,7 @@ const translation = {
     datasetSettingLink: 'Paramètres de connaissance.',
     webpageUnit: 'Pages',
     websiteSource: 'Site web de prétraitement',
+    separatorTip: 'Un délimiteur est le caractère utilisé pour séparer le texte. \\n\\n et \\n sont des délimiteurs couramment utilisés pour séparer les paragraphes et les lignes. Combiné à des virgules (\\n\\n,\\n), les paragraphes seront segmentés par des lignes lorsqu’ils dépasseront la longueur maximale des morceaux. Vous pouvez également utiliser des délimiteurs spéciaux définis par vous-même (par exemple ***).',
   },
   stepThree: {
     creationTitle: '🎉 Connaissance créée',
@@ -155,6 +164,11 @@ const translation = {
     apiKeyPlaceholder: 'Clé API de firecrawl.dev',
     configFirecrawl: 'Configurer 🔥Firecrawl',
     getApiKeyLinkText: 'Obtenez votre clé API auprès de firecrawl.dev',
+  },
+  jinaReader: {
+    getApiKeyLinkText: 'Obtenez votre clé API gratuite chez jina.ai',
+    apiKeyPlaceholder: 'Clé API de jina.ai',
+    configJinaReader: 'Configurer Jina Reader',
   },
 }
 

@@ -50,7 +50,7 @@ const translation = {
       input: 'Название базы знаний',
       placeholder: 'Пожалуйста, введите',
       nameNotEmpty: 'Название не может быть пустым',
-      nameLengthInvaild: 'Название должно быть от 1 до 40 символов',
+      nameLengthInvalid: 'Название должно быть от 1 до 40 символов',
       cancelButton: 'Отмена',
       confirmButton: 'Создать',
       failed: 'Ошибка создания',
@@ -78,6 +78,14 @@ const translation = {
       scrapTimeInfo: 'Всего просканировано {{total}} страниц за {{time}} секунд',
       preview: 'Предварительный просмотр',
       maxDepthTooltip: 'Максимальная глубина сканирования относительно введенного URL. Глубина 0 сканирует только страницу введенного URL, глубина 1 сканирует URL и все, что находится после введенного URL + один /, и так далее.',
+      jinaReaderNotConfiguredDescription: 'Настройте Jina Reader, введя свой бесплатный ключ API для доступа.',
+      jinaReaderDocLink: 'https://jina.ai/reader',
+      useSitemap: 'Использовать карту сайта',
+      chooseProvider: 'Выберите провайдера',
+      jinaReaderNotConfigured: 'Jina Reader не настроен',
+      jinaReaderDoc: 'Узнайте больше о Jina Reader',
+      jinaReaderTitle: 'Конвертируйте весь сайт в Markdown',
+      useSitemapTooltip: 'Следуйте карте сайта, чтобы просканировать сайт. Если нет, Jina Reader будет сканировать итеративно в зависимости от релевантности страницы, выдавая меньшее количество страниц, но более высокого качества.',
     },
   },
   stepTwo: {
@@ -138,6 +146,7 @@ const translation = {
     indexSettingTip: 'Чтобы изменить метод индексации, пожалуйста, перейдите в ',
     retrievalSettingTip: 'Чтобы изменить метод индексации, пожалуйста, перейдите в ',
     datasetSettingLink: 'настройки базы знаний.',
+    separatorTip: 'Разделитель — это символ, используемый для разделения текста. \\n\\n и \\n — это часто используемые разделители для разделения абзацев и строк. В сочетании с запятыми (\\n\\n,\\n) абзацы будут сегментированы по строкам, если максимальная длина блока превышает их. Вы также можете использовать специальные разделители, определенные вами (например, ***).',
   },
   stepThree: {
     creationTitle: '🎉 База знаний создана',
@@ -155,6 +164,11 @@ const translation = {
     modelContent: 'Если вам нужно будет возобновить обработку позже, вы продолжите с того места, где остановились.',
     modelButtonConfirm: 'Подтвердить',
     modelButtonCancel: 'Отмена',
+  },
+  jinaReader: {
+    getApiKeyLinkText: 'Получите бесплатный ключ API в jina.ai',
+    configJinaReader: 'Настройка Jina Reader',
+    apiKeyPlaceholder: 'Ключ API от jina.ai',
   },
 }
 

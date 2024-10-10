@@ -52,7 +52,7 @@ const translation = {
       input: 'Nome della Conoscenza',
       placeholder: 'Per favore inserisci',
       nameNotEmpty: 'Il nome non può essere vuoto',
-      nameLengthInvaild: 'Il nome deve essere tra 1 e 40 caratteri',
+      nameLengthInvalid: 'Il nome deve essere tra 1 e 40 caratteri',
       cancelButton: 'Annulla',
       confirmButton: 'Crea',
       failed: 'Creazione fallita',
@@ -85,6 +85,14 @@ const translation = {
       preview: 'Anteprima',
       maxDepthTooltip:
         'Profondità massima da eseguire rispetto all\'URL inserito. La profondità 0 estrae solo la pagina dell\'URL inserito, la profondità 1 estrae l\'URL e tutto ciò che segue l\'URL inserito + uno /, e così via.',
+      jinaReaderDocLink: 'https://jina.ai/reader',
+      useSitemapTooltip: 'Segui la sitemap per eseguire la scansione del sito. In caso contrario, Jina Reader eseguirà la scansione in modo iterativo in base alla pertinenza della pagina, producendo meno pagine ma di qualità superiore.',
+      jinaReaderNotConfigured: 'Jina Reader non è configurato',
+      jinaReaderDoc: 'Scopri di più su Jina Reader',
+      jinaReaderTitle: 'Converti l\'intero sito in Markdown',
+      jinaReaderNotConfiguredDescription: 'Configura Jina Reader inserendo la tua chiave API gratuita per l\'accesso.',
+      useSitemap: 'Usa la mappa del sito',
+      chooseProvider: 'Seleziona un fornitore',
     },
   },
   stepTwo: {
@@ -158,6 +166,7 @@ const translation = {
     indexSettingTip: 'Per cambiare il metodo di indicizzazione, vai alle ',
     retrievalSettingTip: 'Per cambiare il metodo di indicizzazione, vai alle ',
     datasetSettingLink: 'impostazioni della Conoscenza.',
+    separatorTip: 'Un delimitatore è il carattere utilizzato per separare il testo. \\n\\n e \\n sono delimitatori comunemente usati per separare paragrafi e righe. In combinazione con le virgole (\\n\\n,\\n), i paragrafi verranno segmentati per righe quando superano la lunghezza massima del blocco. È inoltre possibile utilizzare delimitatori speciali definiti dall\'utente (ad es. ***).',
   },
   stepThree: {
     creationTitle: '🎉 Conoscenza creata',
@@ -178,6 +187,11 @@ const translation = {
       'Se hai bisogno di riprendere l\'elaborazione in seguito, continuerai da dove hai interrotto.',
     modelButtonConfirm: 'Conferma',
     modelButtonCancel: 'Annulla',
+  },
+  jinaReader: {
+    getApiKeyLinkText: 'Ottieni la tua chiave API gratuita su jina.ai',
+    apiKeyPlaceholder: 'Chiave API da jina.ai',
+    configJinaReader: 'Configura Jina Reader',
   },
 }
 

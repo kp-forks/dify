@@ -50,7 +50,7 @@ const translation = {
       input: 'Nombre del conocimiento',
       placeholder: 'Por favor ingresa',
       nameNotEmpty: 'El nombre no puede estar vacío',
-      nameLengthInvaild: 'El nombre debe tener entre 1 y 40 caracteres',
+      nameLengthInvalid: 'El nombre debe tener entre 1 y 40 caracteres',
       cancelButton: 'Cancelar',
       confirmButton: 'Crear',
       failed: 'Error al crear',
@@ -78,6 +78,14 @@ const translation = {
       scrapTimeInfo: 'Se extrajeron {{total}} páginas en total en {{time}}s',
       preview: 'Vista previa',
       maxDepthTooltip: 'Profundidad máxima para rastrear en relación con la URL ingresada. La profundidad 0 solo extrae la página de la URL ingresada, la profundidad 1 extrae la URL y todo lo después de la URL ingresada + una /, y así sucesivamente.',
+      jinaReaderDocLink: 'https://jina.ai/reader',
+      jinaReaderNotConfigured: 'Jina Reader no está configurado',
+      useSitemap: 'Usar el mapa del sitio',
+      jinaReaderTitle: 'Convertir todo el sitio a Markdown',
+      jinaReaderNotConfiguredDescription: 'Configura Jina Reader introduciendo tu clave API gratuita para acceder.',
+      useSitemapTooltip: 'Siga el mapa del sitio para rastrear el sitio. De lo contrario, Jina Reader rastreará de forma iterativa en función de la relevancia de la página, lo que producirá menos páginas pero de mayor calidad.',
+      chooseProvider: 'Seleccione un proveedor',
+      jinaReaderDoc: 'Más información sobre Jina Reader',
     },
   },
   stepTwo: {
@@ -138,6 +146,7 @@ const translation = {
     indexSettingTip: 'Para cambiar el método de índice, por favor ve a la ',
     retrievalSettingTip: 'Para cambiar el método de índice, por favor ve a la ',
     datasetSettingLink: 'configuración del conocimiento.',
+    separatorTip: 'Un delimitador es el carácter que se utiliza para separar el texto. \\n\\n y \\n son delimitadores comúnmente utilizados para separar párrafos y líneas. Combinado con comas (\\n\\n,\\n), los párrafos se segmentarán por líneas cuando excedan la longitud máxima del fragmento. También puede utilizar delimitadores especiales definidos por usted mismo (por ejemplo, ***).',
   },
   stepThree: {
     creationTitle: '🎉 Conocimiento creado',
@@ -155,6 +164,11 @@ const translation = {
     modelContent: 'Si necesitas reanudar el procesamiento más tarde, continuarás desde donde lo dejaste.',
     modelButtonConfirm: 'Confirmar',
     modelButtonCancel: 'Cancelar',
+  },
+  jinaReader: {
+    configJinaReader: 'Configurar Jina Reader',
+    apiKeyPlaceholder: 'Clave de API de jina.ai',
+    getApiKeyLinkText: 'Obtén tu clave API gratuita en jina.ai',
   },
 }
 
